@@ -1,0 +1,13 @@
+data()
+getwd()
+summary(mtcars)
+head(mtcars)
+summary(cars)
+str(mtcars)
+quantile(cars$speed)
+cars
+dim(cars)
+aggregate(dist ~ speed, data = cars, FUN = mean)
+aggregate(dist ~ speed, data = cars, FUN = median)
+aggregate(dist ~ speed, data = cars, FUN = mode)
+aggregate(dist ~ speed, data = cars, FUN = min)
